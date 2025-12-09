@@ -32,7 +32,6 @@
     "messages": {
       "Thing-Instruction": {
         "payload": {
-          "type": "object",
           "$ref": "#/components/schemas/Thing-Instruction"
         }
       }
