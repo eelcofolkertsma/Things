@@ -9,7 +9,7 @@ On this semantic model we have a message to instruct the other party to do somet
 
 In the PoC, party A sends an instruction, party B receives this instruction
 
-This interface is documented with a JSON schema (so, can only address payload of message) or as alternative withan AsyncAPI document (introducing channel, operation, and message notions on top of the payload schema)
+This interface is documented with a JSON schema (so, can only address payload of message) or as alternative with an AsyncAPI document (introducing channel, operation, and message notions on top of the payload schema)
 
 AsyncAPI can be viewed in Studio at https://studio.asyncapi.com/?share=28528208-0be8-4fdd-a6cc-8cc064118a7b
 
