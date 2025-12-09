@@ -1,0 +1,46 @@
+{
+  "asyncapi": "3.0.0",
+  "info": {
+    "title": "Thing Service",
+    "version": "1.0.0",
+    "description": "This service is in charge of advising thing instructions"
+  },
+  "channels": {
+    "instructThing": {
+      "address": "thing-instruction",
+      "messages": {
+        "Thing-Instruction": {
+          "$ref": "#/components/messages/Thing-Instruction"
+        }
+      }
+    }
+  },
+  "operations": {
+    "instructThing": {
+      "action": "send",
+      "channel": {
+        "$ref": "#/channels/instructThing"
+      },
+      "messages": [
+        {
+          "$ref": "#/channels/instructThing/messages/Thing-Instruction"
+        }
+      ]
+    }
+  },
+  "components": {
+    "messages": {
+      "Thing-Instruction": {
+        "payload": {
+          "type": "object",
+          "$ref": "#/components/schemas/Thing-Instruction"
+        }
+      }
+    },
+    "schemas": {
+      "Thing-Instruction": {
+        "$ref": "https://pinggg.mywire.org/json/demo-things-library-a1.v0.1.0.json#/$defs/ThingInstruction"
+      }
+    }
+  }
+}

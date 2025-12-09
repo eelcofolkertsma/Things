@@ -1,0 +1,12 @@
+﻿{
+    "ThingInstruction": {
+        "identifier": {
+            "value": "my thing"
+        },
+        "instruction": {
+            "identifier": {
+                "value": "clean"
+            }
+        }
+    }
+}
