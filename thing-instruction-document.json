@@ -1,12 +1,8 @@
 ﻿{
-    "ThingInstruction": {
-        "identifier": {
-            "value": "my thing"
-        },
-        "instruction": {
-            "identifier": {
-                "value": "clean"
-            }
+    "payload": {
+        "identifier": "my Thing",
+        "instruction":{
+		"identifier": "clean"
         }
     }
 }
