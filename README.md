@@ -13,6 +13,6 @@ This interface is documented with a JSON schema (so, can only address payload of
 
 AsyncAPI can be viewed in Studio at https://studio.asyncapi.com/?share=28528208-0be8-4fdd-a6cc-8cc064118a7b
 
-JSON message schema can be viewed in Newton validator at https://www.jsonschemavalidator.net/s/P4Ke61kR
+JSON message schema can be viewed in Newton validator at https://www.jsonschemavalidator.net/s/qmC4CPnW
 
-Individual artifacts can be downloaded from https://pinggg.mywire.org/json/
+Individual artifacts can be downloaded from https://pinggg.mywire.org/json/ or Github https://github.com/eelcofolkertsma/Things
